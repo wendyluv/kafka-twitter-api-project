@@ -1,0 +1,80 @@
+2024-04-01 18:03:02 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 17.0.10 with PID 12732 (C:\Users\USER\Documents\microservices.app\twitter-to-kafka\target\classes started by USER in C:\Users\USER\Documents\microservices.app)
+2024-04-01 18:03:02 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-01 18:03:03 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.639 seconds (process running for 0.99)
+2024-04-01 18:03:03 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Application is starting
+2024-04-01 18:03:03 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - [Java, -Microservices, Spring, Kafka, Elasticsearch]
+2024-04-01 18:03:03 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Welcome to the twitter API.
+2024-04-01 18:03:03 [main] INFO  c.w.m.t.s.r.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, -Microservices, Spring, Kafka, Elasticsearch]
+2024-04-01 18:03:03 [main] INFO  c.w.m.t.s.r.TwitterV2StreamHelper - Created rules for twitter stream Java
+2024-04-01 18:03:04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01 18:03:04 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.json.JSONException: A JSONObject text must begin with '{' at 3 [character 4 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:521)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:421)
+	at com.wendyluv.microservices.twitter_to_kafka.service.runner.TwitterV2StreamHelper.getFormattedTweet(TwitterV2StreamHelper.java:223)
+	at com.wendyluv.microservices.twitter_to_kafka.service.runner.TwitterV2StreamHelper.connectStream(TwitterV2StreamHelper.java:88)
+	at com.wendyluv.microservices.twitter_to_kafka.service.runner.TwitterV2KafkaStreamRunner.start(TwitterV2KafkaStreamRunner.java:40)
+	at com.wendyluv.microservices.twitter_to_kafka.service.TwitterToKafkaApplication.run(TwitterToKafkaApplication.java:33)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.wendyluv.microservices.twitter_to_kafka.service.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:25)
+2024-04-01 18:04:12 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 17.0.10 with PID 7028 (C:\Users\USER\Documents\microservices.app\twitter-to-kafka\target\classes started by USER in C:\Users\USER\Documents\microservices.app)
+2024-04-01 18:04:12 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-01 18:04:12 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.647 seconds (process running for 0.989)
+2024-04-01 18:04:12 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Application is starting
+2024-04-01 18:04:12 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-04-01 18:04:12 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Welcome to the twitter API.
+2024-04-01 18:04:12 [main] INFO  c.w.m.t.s.r.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-04-01 18:04:13 [main] INFO  c.w.m.t.s.r.TwitterV2StreamHelper - Created rules for twitter stream Java
+2024-04-01 18:04:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-01 18:04:13 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.json.JSONException: A JSONObject text must begin with '{' at 3 [character 4 line 1]
+	at org.json.JSONTokener.syntaxError(JSONTokener.java:521)
+	at org.json.JSONObject.<init>(JSONObject.java:225)
+	at org.json.JSONObject.<init>(JSONObject.java:421)
+	at com.wendyluv.microservices.twitter_to_kafka.service.runner.TwitterV2StreamHelper.getFormattedTweet(TwitterV2StreamHelper.java:223)
+	at com.wendyluv.microservices.twitter_to_kafka.service.runner.TwitterV2StreamHelper.connectStream(TwitterV2StreamHelper.java:88)
+	at com.wendyluv.microservices.twitter_to_kafka.service.runner.TwitterV2KafkaStreamRunner.start(TwitterV2KafkaStreamRunner.java:40)
+	at com.wendyluv.microservices.twitter_to_kafka.service.TwitterToKafkaApplication.run(TwitterToKafkaApplication.java:33)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.wendyluv.microservices.twitter_to_kafka.service.TwitterToKafkaApplication.main(TwitterToKafkaApplication.java:25)

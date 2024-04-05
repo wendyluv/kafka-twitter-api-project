@@ -1,0 +1,19 @@
+2024-04-02 16:39:06 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wendyluv.microservices.twitter_to_kafka.service.TwitterToKafkaApplicationTests]: TwitterToKafkaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-02 16:39:06 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wendyluv.microservices.twitter_to_kafka.service.TwitterToKafkaApplication for test class com.wendyluv.microservices.twitter_to_kafka.service.TwitterToKafkaApplicationTests
+2024-04-02 16:39:07 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/USER/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/USER/.m2/repository/org/json/json/20220320/json-20220320.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-04-02 16:39:07 [main] INFO  c.w.m.t.s.TwitterToKafkaApplicationTests - Starting TwitterToKafkaApplicationTests using Java 17.0.10 with PID 4240 (started by USER in C:\Users\USER\Documents\microservices.app\twitter-to-kafka)
+2024-04-02 16:39:07 [main] INFO  c.w.m.t.s.TwitterToKafkaApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-04-02 16:39:07 [main] INFO  c.w.m.t.s.TwitterToKafkaApplicationTests - Started TwitterToKafkaApplicationTests in 0.545 seconds (process running for 1.272)
+2024-04-02 16:39:07 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Application is starting
+2024-04-02 16:39:07 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-04-02 16:39:07 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Welcome to the twitter API.
+2024-04-02 16:39:07 [main] INFO  c.w.m.t.s.r.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-04-02 16:39:07 [pool-3-thread-1] INFO  c.w.m.t.s.l.TwitterKafkaStatusListener - Twitter status with text consectetuer Fusce libero porttitor posuere purus lectus malesuada Microservices malesuada purus ultricies sit congue ipsum consectetuer
