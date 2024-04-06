@@ -20,6 +20,7 @@
 		<module>kafka/kafka-admin</module>
 		<module>kafka/kafka-producer</module>
 		<module>kafka/kafka-model</module>
+		<module>common-config</module>
 	</modules>
 	<packaging>pom</packaging>
 	<properties>
@@ -34,6 +35,8 @@
 		<json.version>20220320</json.version>
 		<project.version>0.0.1-SNAPSHOT</project.version>
 		<avro.version>1.10.0</avro.version>
+		<spring-kafka.version>2.6.2</spring-kafka.version>
+		<spring-retry.version>2.0.5</spring-retry.version>
 	</properties>
 
 	<dependencyManagement>
@@ -81,6 +84,21 @@
 				<groupId>org.apache.avro</groupId>
 				<artifactId>avro</artifactId>
 				<version>${avro.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.kafka</groupId>
+				<artifactId>spring-kafka</artifactId>
+				<version>${spring-kafka.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.retry</groupId>
+				<artifactId>spring-retry</artifactId>
+				<version>${spring-retry.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.wendyluv</groupId>
+				<artifactId>kafka-admin</artifactId>
+				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
