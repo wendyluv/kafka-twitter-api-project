@@ -1,0 +1,11 @@
+2024-04-02 16:38:09 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Starting TwitterToKafkaApplication using Java 17.0.10 with PID 19356 (C:\Users\USER\Documents\microservices.app\twitter-to-kafka\target\classes started by USER in C:\Users\USER\Documents\microservices.app)
+2024-04-02 16:38:09 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-02 16:38:09 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Started TwitterToKafkaApplication in 0.698 seconds (process running for 1.108)
+2024-04-02 16:38:09 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Application is starting
+2024-04-02 16:38:09 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-04-02 16:38:09 [main] INFO  c.w.m.t.s.TwitterToKafkaApplication - Welcome to the twitter API.
+2024-04-02 16:38:09 [main] INFO  c.w.m.t.s.r.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-04-02 16:38:09 [pool-2-thread-1] INFO  c.w.m.t.s.l.TwitterKafkaStatusListener - Twitter status with text malesuada massa consectetuer sit malesuada Elasticsearch massa elit amet
+2024-04-02 16:38:19 [pool-2-thread-1] INFO  c.w.m.t.s.l.TwitterKafkaStatusListener - Twitter status with text congue congue congue amet massa adipiscing Microservices Lorem Maecenas pulvinar malesuada
+2024-04-02 16:38:29 [pool-2-thread-1] INFO  c.w.m.t.s.l.TwitterKafkaStatusListener - Twitter status with text elit Maecenas magna ultricies ipsum Java posuere porttitor porttitor
+2024-04-02 16:38:39 [pool-2-thread-1] INFO  c.w.m.t.s.l.TwitterKafkaStatusListener - Twitter status with text lectus amet adipiscing massa malesuada Kafka lectus lectus porttitor
